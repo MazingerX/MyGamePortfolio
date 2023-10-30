@@ -133,6 +133,19 @@ code {
   margin-bottom: 16px;
 }
 
+button {
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  padding: 16px 24px;
+  background: rgba(44, 37, 44, 0.8);
+  border: 1px solid #7f797f;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
 .header {
   margin-bottom: 104px;
 }
