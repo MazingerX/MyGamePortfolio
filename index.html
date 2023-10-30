@@ -50,4 +50,20 @@
       </div>
     </div>
   </body>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    // Add event listeners to all buttons
+    const buttons = document.querySelectorAll(".run-game-button");
+    buttons.forEach(button => {
+        button.addEventListener("click", function(event) {
+            const gameName = event.target.getAttribute("data-game");
+            runGame(gameName);
+        });
+    });
+});
+    function runGame(gameName) {
+      window.location.href = `https://play.famobi.com/wrapper/spect/A1000-10${gameName}`;
+    }
+</script>
 </html>
